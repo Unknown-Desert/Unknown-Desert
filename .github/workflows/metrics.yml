@@ -1,0 +1,67 @@
+name: Generate GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"          # Update setiap 6 jam
+  workflow_dispatch:               # Bisa dijalankan manual dari tab Actions
+  push:
+    branches: [ "main", "master" ] # Otomatis update saat ada push
+
+permissions:
+  contents: write                  # Izin untuk commit file hasil generate
+
+jobs:
+  generate-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # Langkah 1: Cek kode repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Langkah 2: Generate SVG Metrics
+      - name: Generate metrics SVG
+        uses: lowlighter/metrics@v3.0          # Versi fixed untuk keamanan
+        with:
+          # Token wajib (GITHUB_TOKEN otomatis disediakan GitHub)
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # Identitas user (otomatis mengambil pemilik repo)
+          user: ${{ github.repository_owner }}
+          
+          # Template dasar
+          template: classic
+          
+          # Bagian dasar yang ditampilkan (header, aktivitas, komunitas, repo, metadata)
+          base: header, activity, community, repositories, metadata
+          
+          # Zona waktu (sesuaikan dengan lokasimu, misal Jakarta)
+          config_timezone: Asia/Jakarta
+
+          # ================================================
+          # 📊 PLUGIN 1: REPOSITORIES (Popular Repositories)
+          # ================================================
+          plugin_repositories: yes
+          plugin_repositories_featured: ""       # Kosongkan agar otomatis ambil repo yang di-pin
+          # Atau isi manual: "username/repo1, username/repo2"
+          plugin_repositories_skipped: ""        # Repo yang dilewati (opsional)
+
+          # ================================================
+          # 📅 PLUGIN 2: CALENDAR (Contributions Last Year)
+          # ================================================
+          plugin_calendar: yes
+          plugin_calendar_limit: 1               # 1 = 1 tahun terakhir
+
+          # ================================================
+          # ⚡ PLUGIN 3: ACTIVITY (Contribution Activity)
+          # ================================================
+          plugin_activity: yes
+          plugin_activity_limit: 5               # Jumlah aktivitas terbaru (5)
+          plugin_activity_days: 14               # 14 hari terakhir
+          plugin_activity_filter: issue, pr, push, fork, comment
+          
+          # ================================================
+          # 📁 OUTPUT
+          # ================================================
+          filename: assets/metrics.svg
+          output_action: commit
+          commit_message: "chore: update metrics [skip ci]"
