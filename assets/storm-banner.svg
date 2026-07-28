@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="auto">
   <defs>
     <style>
@@ -12,7 +11,6 @@
         0% { transform: translateX(0px); }
         100% { transform: translateX(-40px); }
       }
-
       .hujan {
         stroke: #7a9cce;
         stroke-width: 1.5;
@@ -25,8 +23,6 @@
         90% { opacity: 0.7; }
         100% { transform: translateY(200px); opacity: 0; }
       }
-
-      /* === PETIR BERKEDIP === */
       .petir-utama {
         stroke: #fff7a8;
         stroke-width: 3;
@@ -48,8 +44,6 @@
         92% { opacity: 0.8; }
         94% { opacity: 0; }
       }
-
-      /* === KEDIPAN LATAR === */
       .latar-belakang {
         animation: redup 3.5s infinite;
       }
@@ -61,22 +55,18 @@
       }
     </style>
   </defs>
-
   <rect class="latar-belakang" width="800" height="200" fill="#0b0e1a" />
-
   <g class="awan">
     <ellipse cx="200" cy="50" rx="100" ry="40" fill="#1a1f2e" />
     <ellipse cx="320" cy="40" rx="80" ry="35" fill="#151a28" />
     <ellipse cx="480" cy="55" rx="90" ry="38" fill="#1a1f2e" />
     <ellipse cx="600" cy="45" rx="70" ry="30" fill="#131826" />
   </g>
-
   <g class="awan-bawah">
     <ellipse cx="150" cy="70" rx="110" ry="30" fill="#0f131f" />
     <ellipse cx="400" cy="75" rx="130" ry="35" fill="#0d111c" />
     <ellipse cx="650" cy="70" rx="100" ry="28" fill="#0f131f" />
   </g>
-
   <g>
     <line class="hujan" x1="50" y1="20" x2="40" y2="60" style="animation-delay: 0s;" />
     <line class="hujan" x1="150" y1="0" x2="140" y2="40" style="animation-delay: 0.15s;" />
@@ -92,15 +82,13 @@
     <line class="hujan" x1="500" y1="90" x2="490" y2="130" style="animation-delay: 0.5s;" />
     <line class="hujan" x1="700" y1="85" x2="690" y2="125" style="animation-delay: 0.15s;" />
   </g>
-  
   <polyline class="petir-utama" points="380,20 360,80 395,85 340,160" />
   <polyline class="petir-cabang" points="360,80 385,100 375,120" />
   <polyline class="petir-cabang" points="395,85 415,105 405,135" />
-
   <text x="400" y="160" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle" opacity="0.9" letter-spacing="3">
-    ⚡ DEVELOPER ⚡
+    ⚡ FULL-STACK DEVELOPER ⚡
   </text>
   <text x="400" y="185" font-family="Arial, sans-serif" font-size="12" fill="#a0b4d6" text-anchor="middle" opacity="0.7" letter-spacing="2">
-    Lets Build
+    Building Apps Like Thunder
   </text>
 </svg>
