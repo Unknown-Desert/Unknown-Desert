@@ -24,9 +24,4 @@
 
 Hello I'm **Unknown-Desert** Welcome Here ...
 
-Everything is Posibble Easy Knowledge
-All Dream Will become True, just:
-- Inovation (Long Term / Visioner)
-- Times
-- Money
-- HardWorking
+Everything is Posibble Easy Knowledge, So doo it ....
