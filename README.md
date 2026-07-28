@@ -1,15 +1,24 @@
-
-# 👋 Hi, I'm [Your Name]
-
+<!-- ============================================ -->
+<!--  BANNER ANIMASI BADAI & PETIR (assets lokal)  -->
+<!-- ============================================ -->
 <p align="center">
   <img src="assets/storm-banner.svg" width="100%" alt="Storm and Lightning Banner">
 </p>
 
-## 🚀 About Me
+<!-- ============================================ -->
+<!--  STATISTIK GITHUB (dihasilkan oleh Actions)   -->
+<!-- ============================================ -->
+<p align="center">
+  <img src="assets/metrics.svg" width="100%" alt="GitHub Metrics">
+</p>
 
-[Isi dengan deskripsi dirimu]
+<!-- ============================================ -->
+<!--  BIO SINGKAT (opsional)                       -->
+<!-- ============================================ -->
+## 🚀 Tentang Saya
 
-## 📊 GitHub Stats
+Halo! Saya [Nama Kamu], seorang [Jabatan/Keahlian]. Selamat datang di profil GitHub saya!
 
-[Isi dengan statistik GitHub-mu]
-
+- 🔭 Saat ini sedang mengerjakan: ...
+- 🌱 Sedang belajar: ...
+- ⚡ Fakta menarik: ...
