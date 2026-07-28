@@ -6,13 +6,6 @@
 </p>
 
 <!-- ============================================ -->
-<!--  STATISTIK GITHUB (dihasilkan oleh Actions)   -->
-<!-- ============================================ -->
-<p align="center">
-  <img src="assets/metrics.svg" width="100%" alt="GitHub Metrics">
-</p>
-
-<!-- ============================================ -->
 <!--  BIO SINGKAT (opsional)                       -->
 <!-- ============================================ -->
 ## 🚀 Tentang Saya
