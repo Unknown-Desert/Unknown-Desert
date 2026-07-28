@@ -14,3 +14,71 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<div align="center">
+  <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Latar belakang -->
+    <rect width="800" height="200" fill="#0d1117" rx="12"/>
+
+    <!-- Awan kiri -->
+    <g>
+      <ellipse cx="200" cy="50" rx="80" ry="25" fill="#4a4a6a"/>
+      <ellipse cx="140" cy="60" rx="50" ry="20" fill="#4a4a6a"/>
+      <ellipse cx="260" cy="60" rx="55" ry="22" fill="#4a4a6a"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;25,0;0,0" dur="7s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Awan kanan -->
+    <g>
+      <ellipse cx="650" cy="45" rx="70" ry="22" fill="#3d3d5c"/>
+      <ellipse cx="590" cy="55" rx="45" ry="18" fill="#3d3d5c"/>
+      <ellipse cx="710" cy="55" rx="50" ry="20" fill="#3d3d5c"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;-20,0;0,0" dur="9s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Hujan -->
+    <g stroke="#8899cc" stroke-width="1.2" opacity="0.5">
+      <line x1="80" y1="80" x2="75" y2="100">
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,120" dur="0.7s" repeatCount="indefinite"/>
+      </line>
+      <line x1="180" y1="85" x2="175" y2="105">
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,130" dur="0.6s" repeatCount="indefinite"/>
+      </line>
+      <line x1="300" y1="75" x2="295" y2="95">
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,110" dur="0.8s" repeatCount="indefinite"/>
+      </line>
+      <line x1="500" y1="70" x2="495" y2="90">
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,140" dur="0.65s" repeatCount="indefinite"/>
+      </line>
+      <line x1="620" y1="80" x2="615" y2="100">
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,120" dur="0.75s" repeatCount="indefinite"/>
+      </line>
+      <line x1="740" y1="85" x2="735" y2="105">
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,110" dur="0.7s" repeatCount="indefinite"/>
+      </line>
+    </g>
+
+    <!-- Petir kiri -->
+    <polyline points="280,85 255,135 290,135 265,175" fill="none" stroke="#ffee44" stroke-width="3" stroke-linejoin="round">
+      <animate attributeName="opacity" values="0;0;1;0;0.8;0;0;0" dur="5s" repeatCount="indefinite" keyTimes="0;0.3;0.32;0.34;0.36;0.38;0.6;1"/>
+    </polyline>
+
+    <!-- Petir kanan -->
+    <polyline points="550,75 530,120 560,120 540,160" fill="none" stroke="#ffdd33" stroke-width="2.5" stroke-linejoin="round">
+      <animate attributeName="opacity" values="0;0;0;1;0;0.7;0;0" dur="6s" repeatCount="indefinite" keyTimes="0;0.5;0.52;0.54;0.56;0.58;0.75;1"/>
+    </polyline>
+
+    <!-- Cahaya kilat -->
+    <rect width="800" height="200" fill="#ffffcc" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.1;0;0.07;0;0;0" dur="5s" repeatCount="indefinite" keyTimes="0;0.3;0.32;0.34;0.36;0.38;0.6;1"/>
+    </rect>
+
+    <!-- Teks sambutan -->
+    <text x="400" y="185" text-anchor="middle" fill="#d0d0ff" font-family="monospace" font-size="16" font-weight="bold">
+      ⛈️ SELAMAT DATANG DI PROFIL SAYA ⛈️
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.5s" repeatCount="indefinite"/>
+    </text>
+  </svg>
+</div>
+
+<br>
