@@ -18,10 +18,13 @@
 <!-- ============================================ -->
 <!--  BIO                                         -->
 <!-- ============================================ -->
-## 🚀 Tentang Saya
+## 🚀 About Me
 
-Halo! Saya **Unknown-Desert**. Selamat datang di profil GitHub saya!
+Hello I'm **Unknown-Desert** Welcome Here ...
 
-- 🔭 Saat ini sedang mengerjakan: [isi proyekmu]
-- 🌱 Sedang belajar: [isi teknologi yang dipelajari]
-- ⚡ Fakta menarik: [isi fakta menarik]
+Everything is Posibble Easy Knowledge
+All Dream Will become True, just:
+- Inovation (Long Term / Visioner)
+- Times
+- Money
+- HardWorking
