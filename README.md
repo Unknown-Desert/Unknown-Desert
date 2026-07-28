@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/storm-banner.svg" width="100%" alt="Storm and Lightning Banner">
+</p>
+
 <!-- ============================================ -->
 <!--  1. STATISTIK UTAMA (Popularitas & Aktivitas)  -->
 <!-- ============================================ -->
