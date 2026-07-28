@@ -86,7 +86,7 @@
   <polyline class="petir-cabang" points="360,80 385,100 375,120" />
   <polyline class="petir-cabang" points="395,85 415,105 405,135" />
   <text x="400" y="160" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle" opacity="0.9" letter-spacing="3">
-    ⚡ FULL-STACK DEVELOPER ⚡
+    ⚡ DEVELOPER ⚡
   </text>
   <text x="400" y="185" font-family="Arial, sans-serif" font-size="12" fill="#a0b4d6" text-anchor="middle" opacity="0.7" letter-spacing="2">
     Building Apps Like Thunder
